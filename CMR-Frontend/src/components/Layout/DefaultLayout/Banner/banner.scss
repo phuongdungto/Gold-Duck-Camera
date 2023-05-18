@@ -1,0 +1,39 @@
+@media only screen and (max-width: 600px) {
+    .slide {
+        height: 200px;
+    }
+
+
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 400px;
+    }
+
+    .carousel-indicators {
+        bottom: -100px !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .slide {
+        height: 270px;
+    }
+
+
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 400px;
+    }
+
+    .carousel-indicators {
+        bottom: -100px !important;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .slide {
+        height: 450px;
+    }
+}

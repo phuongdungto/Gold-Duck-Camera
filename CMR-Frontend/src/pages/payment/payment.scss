@@ -1,0 +1,127 @@
+.paymentText {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.paymentForm {
+    justify-content: center;
+}
+
+.paymentForm {
+    margin-top: 0px;
+
+}
+
+.switchpage {
+    margin-top: 150px;
+    font-family: 'Open Sans', serif;
+}
+
+.paymentbody {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Time News Roman';
+    margin-top: 40px;
+
+    .infor {
+        border: 2px solid black;
+        margin-bottom: 20px;
+        box-shadow: 20px 20px 10px grey;
+    }
+}
+
+.my-hr-line {
+    margin: 30px -20px 20px;
+    border: 0;
+    border-top: 1px solid black;
+}
+
+.totalItem {
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 420px) {
+    .btnSua {
+        width: 35px;
+        font-size: 8px;
+    }
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.mx-auto {
+    margin-top: 110px;
+}
+
+.bodypayment {
+    background: rgba(0, 0, 0, 100%);
+}
+
+.btn-payment {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+
+.btn-google {
+    color: white !important;
+    background-color: #ea4335;
+}
+
+.btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+}
+
+body {
+    background: #c9ccd1;
+}
+
+.payment-form .form-style input {
+    border: 0;
+    height: 50px;
+    border-radius: 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.payment-form .form-style input:focus {
+    border-bottom: 1px solid #007bff;
+    box-shadow: none;
+    outline: 0;
+    background-color: #ebebeb;
+}
+
+.payment-form .sideline {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ccc;
+}
+
+.payment-form button {
+    height: 50px;
+}
+
+.payment-form .sideline:before,
+.payment-form .sideline:after {
+    content: "";
+    border-top: 1px solid #ebebeb;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.payment-form .sideline:after {
+    margin: 0 0 0 20px;
+}

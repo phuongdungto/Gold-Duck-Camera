@@ -1,0 +1,67 @@
+.header-menu .fa-icon {
+    color: yellow;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.header-menu {
+    background-color: rgba(0, 0, 0, 70%);
+}
+
+.menu-item {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding: 0px !important;
+}
+
+.menu-item span {
+    text-decoration: none;
+    position: relative;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif !important;
+    display: block;
+    overflow: hidden;
+    transition: 0.7s all;
+    text-transform: uppercase;
+}
+
+.menu-item span:before {
+    content: '';
+    width: 100%;
+    position: absolute;
+    border-bottom: 3px solid #efefef;
+    bottom: 0;
+    right: 100%;
+    transition: 0.7s all;
+}
+
+.menu-item span:hover {
+    color: white;
+}
+
+.menu-item span:hover:before {
+    right: 0;
+}
+
+.header-menu .fa-icon {
+    margin-right: 8px;
+}
+
+.nav-tabs .nav-link.active:after {
+    background-color: white !important;
+}
+
+.nav-tabs {
+    --bs-nav-tabs-link-active-bg: none !important;
+}
+
+.menu-item.active span:before {
+    right: 0;
+}
